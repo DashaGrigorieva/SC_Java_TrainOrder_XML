@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.example.com/train"
+        xmlns:tns="http://www.example.com/train"
+        elementFormDefault="qualified">
+    <element name="orders">
+        <complexType>
+            <sequence>
+                <element name="order"
+                         type="tns:order"
+                         minOccurs="1"
+                         maxOccurs="unbounded" />
+            </sequence>
+        </complexType>
+    </element>
+    <complexType name="order">
+        <sequence>
+            <element name="name" type="string" />
+            <element name="client" type="string" />
+            <element name="number" type="positiveInteger" />
+            <element name="wagons" type="tns:wagons" />
+        </sequence>
+    </complexType>
+    <complexType name="wagons">
+        <sequence>
+            <element name="wagon"
+                     type="tns:wagon"
+                     minOccurs="1"
+                     maxOccurs="7" />
+        </sequence>
+    </complexType>
+    <complexType name="wagon">
+        <sequence>
+            <element name="type">
+                <simpleType>
+                    <restriction base="string">
+                        <enumeration value="l" ></enumeration>
+                        <enumeration value="vr"></enumeration>
+                        <enumeration value="o"></enumeration>
+                        <enumeration value="p"></enumeration>
+                        <enumeration value="k"></enumeration>
+                        <enumeration value="sv"></enumeration>
+                        <enumeration value="b"></enumeration>
+                    </restriction>
+                </simpleType>
+            </element>
+            <element name="count" type="positiveInteger" />
+        </sequence>
+    </complexType>
+</schema>

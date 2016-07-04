@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <orders xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.example.com/train"
+        xsi:schemaLocation="http://www.example.com/train train.xsd">
+            <order>
+                <name>Hogwarts Express</name>
+                <client>London Kings-Cross</client>
+                <number>1</number>
+                <wagons>
+                    <wagon>
+                        <type>l</type>
+                        <count>2</count>
+                    </wagon>
+                    <wagon>
+                        <type>l</type>
+                        <count>1</count>
+                    </wagon>
+                    <wagon>
+                        <type>sv</type>
+                        <count>2</count>
+                    </wagon>
+                    <wagon>
+                        <type>b</type>
+                        <count>3</count>
+                    </wagon>
+                </wagons>
+            </order>
+            <order>
+                <name>Eastern Express</name>
+                <client>Agatha Christie</client>
+                <number>4</number>
+                <wagons>
+                    <wagon>
+                        <type>p</type>
+                        <count>4</count>
+                    </wagon>
+                    <wagon>
+                        <type>k</type>
+                        <count>6</count>
+                    </wagon>
+                    <wagon>
+                        <type>o</type>
+                        <count>2</count>
+                    </wagon>
+                </wagons>
+            </order>
+            <order>
+                <name>Regional</name>
+                <client>Gomel Station</client>
+                <number>2</number>
+                <wagons>
+                    <wagon>
+                        <type>o</type>
+                        <count>4</count>
+                    </wagon>
+                    <wagon>
+                        <type>vr</type>
+                        <count>1</count>
+                    </wagon>
+                    <wagon>
+                        <type>b</type>
+                        <count>2</count>
+                    </wagon>
+                </wagons>
+            </order>
+            <order>
+                <name>Passenger</name>
+                <client>Minsk Central Station</client>
+                <number>4</number>
+                <wagons>
+                    <wagon>
+                        <type>l</type>
+                        <count>4</count>
+                    </wagon>
+                    <wagon>
+                        <type>vr</type>
+                        <count>1</count>
+                    </wagon>
+                    <wagon>
+                        <type>o</type>
+                        <count>2</count>
+                    </wagon>
+                    <wagon>
+                        <type>k</type>
+                        <count>7</count>
+                    </wagon>
+                </wagons>
+            </order>
+        </orders>

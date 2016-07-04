@@ -1,0 +1,7 @@
+HogwartsExpress LondonKingsCross 1 l 1 sv 12 b 
+EasternExpress AgathaChristie 4
+HogwartsExpress LondonKingsCross 1 l 1 sv 12 b H
+Passenger MinskCentralStation 4 l 2 vr 1 o 6 e 4 
+Regional GomelStation 2 l 5 o 3 vr 4 b 2
+HogwartsExpress LondonKingsCross 1 l 1 sv 12 b 4
+EasternExpress AgathaChristie 4 p 8 p 3 o 2
